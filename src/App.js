@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import './fonts/Magilio.ttf';
+import { Container } from 'react-bootstrap';
+import background from "./images/background.jpg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundImage: `url(${background})`}} className="App">
+        <Container class="spaceabove">
+          <h1 id="logo">AS</h1>
+        </Container>
+        <h5 id="test">
+          Welcome to my portfolio
+        </h5>
+        <h1 id="heading">Alejandra Sandoval</h1>
     </div>
   );
 }

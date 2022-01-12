@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Magilio";
+  src: local("Magilio"),
+  url("./fonts/Magilio.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Moonrising";
+  src: local("Moonrising"),
+  url("./fonts/Moonrising.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MoonrisingItalic";
+  src: local("MoonrisingItalic"),
+  url("./fonts/MoonrisingItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rockabye-Regular";
+  src: local("Rockabye-Regular"),
+  url("./fonts/Rockabye-Regular.ttf") format("truetype");
+}
