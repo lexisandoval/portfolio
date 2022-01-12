@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './fonts/Magilio.ttf';
 import { Container } from 'react-bootstrap';
