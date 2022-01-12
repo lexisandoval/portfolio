@@ -35,6 +35,10 @@
   font-family: 'Rockabye-Regular';
 }
 
+.largespaceabove {
+  padding-top: 3%;
+}
+
 .spaceabove {
   padding-top: 2%;
 }

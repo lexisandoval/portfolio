@@ -6,7 +6,7 @@ import background from "./images/background.jpg"
 function App() {
   return (
     <div style={{backgroundImage: `url(${background})`}} className="App">
-        <Container class="spaceabove">
+        <Container class="largespaceabove">
           <h1 id="logo">AS</h1>
         </Container>
         <h5 id="test">
