@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 4em !important;
 }
 
 .App-logo {
@@ -13,38 +14,69 @@
   }
 }
 
-#logo {
-  font-family: 'Magilio';
-  border-radius: 100%;
-  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.4);
+.large { 
+  font-size: 150% !important;
+}
+
+.medlarge { 
+  font-size: 125% !important;
+}
+
+.medium { 
+  font-size: 100% !important;
+}
+
+.smallmed { 
+  font-size: 75% !important;
+}
+
+.small { 
+  font-size: 50% !important;
+}
+
+.xsmall { 
+  font-size: 35% !important;
+}
+
+.white {
   color: white;
-  padding: 1%;
-  text-align: center;
 }
 
-#heading { 
-  font-family: 'Magilio';
-  font-size: 300%;
+.ogg {
+  font-family: 'Ogg-Roman';
 }
 
-#test {
-  font-family: 'Moonrising';
+.univers {
+  font-family: "Univers";
 }
 
-#yuh {
-  font-family: 'Rockabye-Regular';
+.universcondensed {
+  font-family: "Univers-Condensed";
+}
+
+.universcondensedbold {
+  font-family: "Univers-CondensedBold";
 }
 
 .largespaceabove {
-  padding-top: 3%;
+  padding-top: 3% !important;
 }
 
 .spaceabove {
-  padding-top: 2%;
+  padding-top: 2% !important;
 }
 
 .spacebelow {
-  padding-bottom: 2%;
+  padding-bottom: 2% !important;
+}
+
+.spacer {
+  padding: 2% !important;
+}
+
+.homelogo {
+  width: 4% !important;
+  height: auto !important;
 }
 
 @keyframes App-logo-spin {
