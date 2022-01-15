@@ -11,7 +11,7 @@ function App() {
       <div class="spacer" />
       <div class="spacer" />
       <h2 class="white ogg medlarge spacebelow">Hey, I'm Alejandra</h2>
-      <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
+      <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER<span><br/></span> WITH A PASSION FOR DESIGN.</h6>
       <Container>
         <img src={lexi} class="lexi" alt="Lexi" />
       </Container>
