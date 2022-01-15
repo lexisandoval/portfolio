@@ -11,12 +11,12 @@ function App() {
       <div class="spacer" />
       <div class="spacer" />
       <h2 class="white ogg medlarge spacebelow">Hey, I'm Alejandra</h2>
-      <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
+      <h6 class="white universextended small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
       <Container>
         <img src={lexi} class="lexi" alt="Lexi" />
       </Container>
       <div class="spacer" />
-      <Container style={{ maxWidth: '550px' }}>
+      <Container style={{ maxWidth: '665px' }}>
         <Row>
           <Col>
             <Button id="aboutBtn">LEARN ABOUT ME</Button>
@@ -28,7 +28,7 @@ function App() {
       </Container>
       <div class="spacer" />
       <h5 class="white ogg medium spaceabove spacebelow">Get In Touch</h5>
-      <h6 class="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+      <h6 class="contmargin universextended small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       <a href="mailto:lexi.sandoval9@gmail.com">
         <Button id="emailBtn" class="spaceabove">SEND ME AN EMAIL</Button>
       </a>

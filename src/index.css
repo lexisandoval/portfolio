@@ -31,6 +31,12 @@ code {
 }
 
 @font-face {
+  font-family: "Univers-Extended";
+  src: local("Univers-Extended"),
+  url("./fonts/Univers-Extended.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Univers-Condensed";
   src: local("Univers-Condensed"),
   url("./fonts/Univers-Condensed.ttf") format("truetype");

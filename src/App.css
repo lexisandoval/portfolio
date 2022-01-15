@@ -46,8 +46,8 @@
   border-width: 1px !important;
   /* color: #eccfec; */
   color: black;
-  font-family: "Univers-Condensed";
-  font-size: 30% !important;
+  font-family: "Univers-Extended";
+  font-size: 25% !important;
   padding: 13px 40px 10px 40px !important;
 }
 
@@ -63,8 +63,8 @@
   border-radius: 20px !important;
   border-width: 1px !important;
   color: white;
-  font-family: "Univers-Condensed";
-  font-size: 30% !important;
+  font-family: "Univers-Extended";
+  font-size: 25% !important;
   padding: 13px 30px 10px 30px !important;
 }
 
@@ -96,6 +96,10 @@
   font-family: "Univers-CondensedBold";
 }
 
+.universextended {
+  font-family: "Univers-Extended";
+}
+
 .largespaceabove {
   padding-top: 3% !important;
 }
@@ -116,7 +120,7 @@
 
 @media screen and (max-width: 800px) { 
   .lexi {
-    width: 100%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
