@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 800px) { 
   .lexi {
-    width: 100vh;
+    width: 120%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
