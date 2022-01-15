@@ -2,6 +2,7 @@
   text-align: center;
   font-size: 4em !important;
   min-width: 100% !important;
+  min-height: 100% !important;
 }
 
 .large { 
@@ -33,7 +34,7 @@
 }
 
 .lexi {
-  width: 75vh;
+  width: 65vh;
   height: auto;
 }
 
@@ -47,7 +48,7 @@
   color: black;
   font-family: "Univers-Condensed";
   font-size: 30% !important;
-  padding: 13px 45px 10px 45px !important;
+  padding: 13px 40px 10px 40px !important;
 }
 
 #aboutBtn:hover,
