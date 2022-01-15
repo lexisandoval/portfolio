@@ -12,7 +12,9 @@ function App() {
       <div class="spacer" />
       <h2 class="white ogg medlarge spacebelow">Hey, I'm Alejandra</h2>
       <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
-      <img src={lexi} class="lexi" alt="Lexi" />
+      <Container>
+        <img src={lexi} class="lexi" alt="Lexi" />
+      </Container>
       <div class="spacer" />
       <Container style={{ maxWidth: '550px' }}>
         <Row>
