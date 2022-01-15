@@ -1,41 +1,49 @@
 import './App.css'
-// import { Container } from 'react-bootstrap'
+import { Button, Row, Col, Container } from 'react-bootstrap'
 import bg from "./images/bg.jpg"
 import lexi from "./images/lexi.png"
+import linkedin from "./images/linkedin.png"
+import github from "./images/github.png"
 
 function App() {
   return (
-    <div style={{backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}} className="App">
-        <div class="spacer"/>
+    <div style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
+      <div class="spacer" />
+      <h2 class="white ogg medlarge spacebelow">Hey, I'm Alejandra</h2>
+      <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
+      <img src={lexi} class="lexi" alt="Lexi" />
+      <div class="spacer" />
+      <Container style={{ maxWidth: '550px' }}>
+        <Row>
+          <Col>
+            <Button id="aboutBtn">LEARN ABOUT ME</Button>
+          </Col>
+          <Col>
+            <Button id="workBtn">CHECK OUT MY WORK</Button>
+          </Col>
+        </Row>
+      </Container>
+      <div class="spacer" />
+      <Container class="gitContainer">
+        <h5 class="white ogg medium spaceabove spacebelow">Get In Touch</h5>
+        <h6 class="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+        <a href="mailto:lexi.sandoval9@gmail.com">
+          <Button id="emailBtn" class="spaceabove">SEND ME AN EMAIL</Button>
+        </a>
+        <br />
 
-        <h1 class="white ogg medium spacebelow">Hey, I'm Alejandra</h1>
-        <h5 class="white universcondensed xsmall spacebelow">A full stack engineer with a passion for design.</h5>
-        <img src={lexi} style={{width: '40%', height: 'auto'}} alt="Lexi"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-        <div class="spacer"/>
-    
+        <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
+          <img src={linkedin} class="socials" alt="linkedin" />
+        </a>
+        <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
 
+          <img src={github} class="socials" alt="github" />
+        </a>
 
+        <div class="spacer" />
+      </Container>
     </div>
-  );
+  )
 }
 
 export default App;

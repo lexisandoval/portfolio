@@ -3,43 +3,79 @@
   font-size: 4em !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .large { 
-  font-size: 150% !important;
-}
-
-.medlarge { 
   font-size: 125% !important;
 }
 
-.medium { 
+.medlarge { 
   font-size: 100% !important;
 }
 
-.smallmed { 
+.medium { 
   font-size: 75% !important;
 }
 
-.small { 
+.smallmed { 
   font-size: 50% !important;
 }
 
+.small { 
+  font-size: 30% !important;
+}
+
 .xsmall { 
-  font-size: 35% !important;
+  font-size: 25% !important;
 }
 
 .white {
   color: white;
+}
+
+.lexi {
+  width: 75vh;
+  height: auto;
+}
+
+#aboutBtn, #emailBtn {
+  background-color: white !important;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-radius: 20px !important;
+  border-width: 1px !important;
+  /* color: #eccfec; */
+  color: black;
+  font-family: "Univers-Condensed";
+  font-size: 30% !important;
+  padding: 13px 45px 10px 45px !important;
+}
+
+#aboutBtn:hover,
+#emailBtn:hover {
+  box-shadow: 0 15px 30px   rgba(0, 0, 0, 0.7);
+}
+
+#workBtn {
+  background-color: black !important;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-radius: 20px !important;
+  border-width: 1px !important;
+  color: white;
+  font-family: "Univers-Condensed";
+  font-size: 30% !important;
+  padding: 13px 30px 10px 30px !important;
+}
+
+#workBtn:hover {
+  box-shadow: 0 15px 30px   rgba(0, 0, 0, 0.7);
+}
+
+.socials:hover {
+  opacity: .6;
+}
+
+.contmargin {
+  margin: 0 7.5%;
 }
 
 .ogg {
@@ -72,11 +108,6 @@
 
 .spacer {
   padding: 2% !important;
-}
-
-.homelogo {
-  width: 4% !important;
-  height: auto !important;
 }
 
 @keyframes App-logo-spin {
