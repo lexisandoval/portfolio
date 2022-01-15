@@ -7,7 +7,8 @@ import github from "./images/github.png"
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
+    <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
+      <div class="spacer" />
       <div class="spacer" />
       <h2 class="white ogg medlarge spacebelow">Hey, I'm Alejandra</h2>
       <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER WITH A PASSION FOR DESIGN.</h6>
@@ -24,7 +25,7 @@ function App() {
         </Row>
       </Container>
       <div class="spacer" />
-      <Container class="gitContainer">
+      <Container class="">
         <h5 class="white ogg medium spaceabove spacebelow">Get In Touch</h5>
         <h6 class="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
         <a href="mailto:lexi.sandoval9@gmail.com">
@@ -41,8 +42,10 @@ function App() {
         </a>
 
         <div class="spacer" />
+        <div class="spacer" />
+
       </Container>
-    </div>
+    </Container>
   )
 }
 
