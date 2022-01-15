@@ -28,7 +28,8 @@ function App() {
       </Container>
       <div class="spacer" />
       <h5 class="white ogg medium spaceabove spacebelow">Get In Touch</h5>
-      <h6 class="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+      <Container style={{ maxWidth: '850px' }}>
+      <h6 class="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6></Container>
       <a href="mailto:lexi.sandoval9@gmail.com">
         <Button id="emailBtn" class="spaceabove">SEND ME AN EMAIL</Button>
       </a>
