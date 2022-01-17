@@ -1,32 +1,31 @@
 .App {
   text-align: center;
-  font-size: 4em !important;
   min-width: 100% !important;
   min-height: 100% !important;
 }
 
 .large { 
-  font-size: 125% !important;
+  font-size: 375% !important;
 }
 
 .medlarge { 
-  font-size: 100% !important;
+  font-size: 300% !important;
 }
 
 .medium { 
-  font-size: 75% !important;
+  font-size: 275% !important;
 }
 
 .smallmed { 
-  font-size: 50% !important;
+  font-size: 200% !important;
 }
 
 .small { 
-  font-size: 30% !important;
+  font-size: 125% !important;
 }
 
 .xsmall { 
-  font-size: 25% !important;
+  font-size: 110% !important;
 }
 
 .white {
@@ -38,6 +37,17 @@
   height: auto;
 }
 
+.dropdown-toggle::after {
+  content:none !important;
+}
+
+.menuicon {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
 #aboutBtn, #emailBtn {
   background-color: white !important;
   border-color: transparent !important;
@@ -47,7 +57,7 @@
   /* color: #eccfec; */
   color: black;
   font-family: "Univers-Extended";
-  font-size: 25% !important;
+  font-size: 95% !important;
   padding: 13px 40px 10px 40px !important;
 }
 
@@ -64,7 +74,7 @@
   border-width: 1px !important;
   color: white;
   font-family: "Univers-Extended";
-  font-size: 25% !important;
+  font-size: 95% !important;
   padding: 13px 30px 10px 30px !important;
 }
 
@@ -78,6 +88,49 @@
 
 .contmargin {
   margin: 0 7.5%;
+}
+
+.spotify {
+  margin: 0 3%;
+}
+
+.backcont {
+  background-color: #ffffff30 !important;
+  border-radius: 20px !important;
+  padding: 2% !important;
+}
+
+.footer {
+  margin-top: .5rem;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  font-family: "Univers-Condensed";
+  font-size: 90%;
+}
+
+.dropdown-item:hover {
+    background-color: #f3f3f3 !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #f3f3f3 !important;
+  color: #000000 !important;
+}
+
+.dropdown-menu {
+  background-color: #ffffff !important;
+  border-width: 0 !important;
+}
+
+.whitelink {
+  text-decoration: none;
+  color: white;
+}
+
+.whitelink:hover {
+  color: rgba(255, 255, 255, 0.623);
 }
 
 .ogg {
@@ -115,8 +168,6 @@
 .spacer {
   padding: 2% !important;
 }
-
-
 
 @media screen and (max-width: 800px) { 
   .lexi {
