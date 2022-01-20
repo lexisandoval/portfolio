@@ -44,19 +44,19 @@ function About() {
 
       <Container className="aboutcont">
         <Row>
-          <Col>
+          <Col className="spacebelow">
             <h6 className="white ogg medium spacebelow">My Go-To Playlist</h6>
             <Spotify style={{ width: '40vh', height: '55vh' }} className="spotify" link="https://open.spotify.com/playlist/4Lk6F0VLcBjBAqOUSlHWBF?si=8b917564289d4b9f" />
             <br />
           </Col>
-          <Col>
+          <Col className="spacebelow">
             <h6 className="white ogg medium spacebelow">Currently Reading</h6>
             <a href="https://www.amazon.com/Last-Mrs-Parrish-Liv-Constantine-ebook/dp/B01N4QZ0KW" target="_blank" rel="noreferrer">
               <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={book} alt="The Last Mrs. Parrish" />
             </a>
             <br />
           </Col>
-          <Col>
+          <Col className="spacebelow">
             <h6 className="white ogg medium spacebelow curve">Favorite Show</h6>
             <a href="https://www.hbo.com/euphoria" target="_blank" rel="noreferrer">
               <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={show} alt="Euphoria" />
