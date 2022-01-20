@@ -33,8 +33,9 @@
 }
 
 .lexi {
-  width: 60vh;
+  width: 55vh;
   height: auto;
+  border-radius: 20px;
 }
 
 .arrow {
@@ -105,7 +106,7 @@
 }
 
 .backcont {
-  background-color: #eccfec6e !important;
+  background-color: #eccfec83 !important;
   border-radius: 20px !important;
   padding: 2% !important;
 }

@@ -20,7 +20,7 @@ function Home() {
         <img src={lexi} class="lexi" alt="Lexi" />
       </Container>
 
-      <div class="spacer" /><br/>
+      <br /><br/>
       <Container style={{ maxWidth: '625px' }}>
         <Row>
           <Col>
