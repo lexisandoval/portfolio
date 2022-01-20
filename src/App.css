@@ -201,6 +201,7 @@
   }
 
   .smallmed { 
-    font-size: 145% !important;
+    font-size: 150% !important;
+    margin-bottom: 1% !important;
   }
 }

@@ -22,21 +22,21 @@ function About() {
       <Container className="spacebelow" style={{ maxWidth: '850px' }}>
         <h6 className="white ogg medium spacebelow">A Brief History</h6>
         <div className="backcont">
-          <h6 className="contmargin universcondensed smallmed white">University of Wisconsin-Madison</h6>
+          <h6 className="contmargin universcondensed smallmed white spacebelow">University of Wisconsin-Madison</h6>
           <h6 className="contmargin universcondensed small white">Graduated with a B.S. in Computer Sciences in Decemeber of 2020</h6>
         </div>
         <br />
         <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class="contmargin universcondensed smallmed white">Flatiron School Software Engineering Bootcamp</h6>
+          <h6 class="contmargin universcondensed smallmed white spacebelow">Flatiron School Software Engineering Bootcamp</h6>
           <h6 className="contmargin universcondensed small white">Completed the Flatiron School Coding Bootcamp in May of 2021</h6>
         </div>
         <br />
         <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class="contmargin universcondensed smallmed white">Cognizant</h6>
+          <h6 class="contmargin universcondensed smallmed white spacebelow">Cognizant</h6>
           <h6 className="contmargin universcondensed small white">Currently working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit</h6>
         </div>
       </Container>
