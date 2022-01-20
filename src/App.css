@@ -176,4 +176,8 @@
     margin-right: auto;
     text-align: center;
   } 
+
+  #workBtn, #aboutBtn {
+    font-size: 98% !important;
+  }
 }
