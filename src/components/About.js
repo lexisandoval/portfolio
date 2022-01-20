@@ -22,17 +22,17 @@ function About() {
         <Row>
           <Col>
             <h6 className="white ogg medium spacebelow">My Go-To Playlist</h6>
-            <Spotify style={{width: '35vh', height: '50vh'}} className="spotify curve" link="https://open.spotify.com/playlist/4Lk6F0VLcBjBAqOUSlHWBF?si=8b917564289d4b9f" />
+            <Spotify style={{width: '35vh', height: '50vh'}} className="spotify spaceabove spacebelow curve" link="https://open.spotify.com/playlist/4Lk6F0VLcBjBAqOUSlHWBF?si=8b917564289d4b9f" />
             <br/>
           </Col>
           <Col>
             <h6 className="white ogg medium spacebelow">Currently Reading</h6>
-            <img style={{width: '35vh', height: '50vh'}} className="curve" src={book} alt="The Last Mrs. Parrish" />
+            <img style={{width: '35vh', height: '50vh'}} className="spaceabove spacebelow curve" src={book} alt="The Last Mrs. Parrish" />
             <br/>
           </Col>
           <Col>
             <h6 className="white ogg medium spacebelow curve">Favorite Show</h6>
-            <img style={{width: '35vh', height: '50vh'}} className="curve" src={show} alt="Euphoria" />
+            <img style={{width: '35vh', height: '50vh'}} className="spaceabove spacebelow curve" src={show} alt="Euphoria" />
             <br/>
           </Col>
         </Row>
