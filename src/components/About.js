@@ -19,21 +19,21 @@ function About() {
       </Container>
       <br />
 
-      <Container style={{ maxWidth: '850px' }}>
+      <Container className="spacebelow" style={{ maxWidth: '850px' }}>
         <h6 className="white ogg medium spacebelow">A Brief History</h6>
         <div className="backcont">
-          <h6 class="contmargin universcondensed small white">University of Wisconsin-Madison</h6>
+          <h6 className="contmargin universcondensed small white">University of Wisconsin-Madison</h6>
           <h6 className="contmargin universcondensed xsmall white">Graduated with a B.S. in Computer Sciences in Decemeber of 2020</h6>
         </div>
         <br />
-        <img src={arrow} style={{ width: '5%' }} alt="arrow" />
+        <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
           <h6 class="contmargin universcondensed small white">Flatiron School Software Engineering Bootcamp</h6>
           <h6 className="contmargin universcondensed xsmall white">Completed the Flatiron School Coding Bootcamp in May of 2021</h6>
         </div>
         <br />
-        <img src={arrow} style={{ width: '5%' }} alt="arrow" />
+        <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
           <h6 class="contmargin universcondensed small white">Cognizant</h6>
@@ -41,6 +41,7 @@ function About() {
         </div>
       </Container>
       <br />
+
       <Container className="aboutcont">
         <Row>
           <Col>
@@ -50,18 +51,21 @@ function About() {
           </Col>
           <Col>
             <h6 className="white ogg medium spacebelow">Currently Reading</h6>
-            <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={book} alt="The Last Mrs. Parrish" />
+            <a href="https://www.amazon.com/Last-Mrs-Parrish-Liv-Constantine-ebook/dp/B01N4QZ0KW" target="_blank" rel="noreferrer">
+              <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={book} alt="The Last Mrs. Parrish" />
+            </a>
             <br />
           </Col>
           <Col>
             <h6 className="white ogg medium spacebelow curve">Favorite Show</h6>
-            <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={show} alt="Euphoria" />
+            <a href="https://www.hbo.com/euphoria" target="_blank" rel="noreferrer">
+              <img style={{ width: '40vh', height: '55vh' }} className="curveimg" src={show} alt="Euphoria" />
+            </a>
             <br />
           </Col>
         </Row>
       </Container>
       <div class="spacer" />
-
     </Container>
   )
 }

@@ -37,6 +37,10 @@
   height: auto;
 }
 
+.arrow {
+  width: 5%;
+}
+
 .dropdown-toggle::after {
   content:none !important;
 }
@@ -189,5 +193,9 @@
 
   #workBtn, #aboutBtn, #emailBtn {
     font-size: 98% !important;
+  }
+  
+  .arrow {
+    width: 20%;
   }
 }
