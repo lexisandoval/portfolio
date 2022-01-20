@@ -25,7 +25,7 @@
 }
 
 .xsmall { 
-  font-size: 110% !important;
+  font-size: 100% !important;
 }
 
 .white {
@@ -90,18 +90,24 @@
   margin: 0 7.5%;
 }
 
-.spotify {
-  margin: 0 3%;
+.curveimg {
+  border-radius: 20px !important;
+  margin: 3% !important;
 }
 
-.curve {
+.spotify {
   border-radius: 20px !important;
+  margin: 3% !important;
 }
 
 .backcont {
-  background-color: #ffffff23 !important;
+  background-color: #eccfec6e !important;
   border-radius: 20px !important;
   padding: 2% !important;
+}
+
+.aboutcont {
+  max-width: 900px !important;
 }
 
 .footer {
