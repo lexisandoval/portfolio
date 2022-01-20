@@ -94,6 +94,10 @@
   margin: 0 3%;
 }
 
+.curve {
+  border-radius: 20px !important;
+}
+
 .backcont {
   background-color: #ffffff23 !important;
   border-radius: 20px !important;
