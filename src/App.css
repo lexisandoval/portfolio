@@ -95,7 +95,7 @@
 }
 
 .backcont {
-  background-color: #ffffff30 !important;
+  background-color: #ffffff23 !important;
   border-radius: 20px !important;
   padding: 2% !important;
 }
@@ -177,7 +177,7 @@
     text-align: center;
   } 
 
-  #workBtn, #aboutBtn {
+  #workBtn, #aboutBtn, #emailBtn {
     font-size: 98% !important;
   }
 }

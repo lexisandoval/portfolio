@@ -1,8 +1,10 @@
 import '../App.css'
 
-import { Container } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import NavBar from "./NavBar"
 import bg from "../images/bg.jpg"
+import book from "../images/book.jpg"
+import show from "../images/show.jpg"
 
 import Spotify from "react-spotify-embed"
 
@@ -17,10 +19,20 @@ function About() {
       </Container>
       <br />
       <Container className="backcont">
-        <h6 className="white ogg medium spacebelow">My go-to playlists at the moment</h6>
-        <Spotify className="spotify" link="https://open.spotify.com/playlist/4Lk6F0VLcBjBAqOUSlHWBF?si=8b917564289d4b9f" />
-
-        <Spotify className="spotify" link="https://open.spotify.com/playlist/2vKdhSVr8c3TvEqZ1hPDJE?si=5c3b319e54da4bc1" />
+        <Row>
+          <Col>
+            <h6 className="white ogg medium spacebelow">My Go-To Playlist</h6>
+            <Spotify style={{width: '35vh', height: '50vh'}}className="spotify" link="https://open.spotify.com/playlist/4Lk6F0VLcBjBAqOUSlHWBF?si=8b917564289d4b9f" />
+          </Col>
+          <Col>
+            <h6 className="white ogg medium spacebelow">Currently Reading</h6>
+            <img style={{width: '35vh', height: '50vh'}} src={book} alt="The Last Mrs. Parrish" />
+          </Col>
+          <Col>
+            <h6 className="white ogg medium spacebelow">Favorite Show</h6>
+            <img style={{width: '35vh', height: '50vh'}} src={show} alt="Euphoria" />
+          </Col>
+        </Row>
       </Container>
       <div class="spacer" />
 
