@@ -106,7 +106,8 @@
 }
 
 .backcont {
-  background-color: #eccfec83 !important;
+  /* background-color: #eccfec83 !important; */
+  border: 2px solid white;
   border-radius: 20px !important;
   padding: 2% !important;
 }
