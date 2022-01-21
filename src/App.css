@@ -191,6 +191,10 @@
   padding: 2% !important;
 }
 
+.alignleft {
+  text-align: left !important;
+}
+
 @media screen and (max-width: 800px) { 
   .lexi {
     width: 85%;

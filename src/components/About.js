@@ -14,30 +14,31 @@ function About() {
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
       <h2 class="white ogg large spacebelow">About Me</h2>
-      <Container style={{ maxWidth: '850px' }}>
-        <h4 class="white universcondensed small">Hello! My name is Alejandra Sandoval and I'm an associate full stack engineer at Cognizant. My interest in coding began in middle school when I developed a passion for customizing my MySpace and Tumblr profiles.</h4>
+      <Container style={{ maxWidth: '1000px' }}>
+        <h4 class="white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm an associate full stack engineer at Cognizant. My interest in coding began in middle school when I developed a passion for customizing my MySpace and Tumblr profiles.</h4><br/>
+        <h4 class="white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my friends and family.</h4>
       </Container>
       <br />
 
-      <Container className="spacebelow" style={{ maxWidth: '850px' }}>
+      <Container className="spacebelow" style={{ maxWidth: '1000px' }}>
         <h6 className="white ogg medium spacebelow">A Brief History</h6>
         <div className="backcont">
-          <h6 className="contmargin universcondensed smallmed white spacebelow">University of Wisconsin-Madison</h6>
-          <h6 className="contmargin universcondensed small white">Graduated with a B.S. in Computer Sciences in Decemeber of 2020</h6>
+          <h6 className="universcondensed smallmed white spacebelow">University of Wisconsin-Madison</h6>
+          <h6 className="universcondensed small white">Graduated with a B.S. in Computer Sciences in Decemeber of 2020</h6>
         </div>
         <br />
         <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class="contmargin universcondensed smallmed white spacebelow">Flatiron School Software Engineering Bootcamp</h6>
-          <h6 className="contmargin universcondensed small white">Completed the Flatiron School Coding Bootcamp in May of 2021</h6>
+          <h6 class=" universcondensed smallmed white spacebelow">Flatiron School Software Engineering Bootcamp</h6>
+          <h6 className=" universcondensed small white">Completed the Flatiron School Coding Bootcamp in June of 2021</h6>
         </div>
         <br />
         <img src={arrow} class="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class="contmargin universcondensed smallmed white spacebelow">Cognizant</h6>
-          <h6 className="contmargin universcondensed small white">Currently working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant</h6>
+          <h6 class=" universcondensed smallmed white spacebelow">Cognizant</h6>
+          <h6 className=" universcondensed small white">Began working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant in August of 2021</h6>
         </div>
       </Container>
       <br />
