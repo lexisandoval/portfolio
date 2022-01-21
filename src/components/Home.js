@@ -24,10 +24,10 @@ function Home() {
       <Container style={{ maxWidth: '625px' }}>
         <Row>
           <Col>
-            <Button as={Link} to={'/aboutme'} id="aboutBtn">LEARN ABOUT ME</Button>
+            <Button as={Link} to={'/aboutme'} id="aboutBtn" className="spaceabove">LEARN ABOUT ME</Button>
           </Col>
           <Col>
-            <Button id="workBtn">CHECK OUT MY WORK</Button>
+            <Button as={Link} to={'/projects'} id="workBtn">CHECK OUT MY WORK</Button>
           </Col>
         </Row>
       </Container>
@@ -38,19 +38,19 @@ function Home() {
         <h6 class="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
       <br/>
-      <a href="mailto:lexi.sandoval9@gmail.com">
+      <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
         <Button id="emailBtn" className="spaceabove">SEND ME AN EMAIL</Button>
       </a>
       <br />
-      <a href="https:www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
         <img src={linkedin} class="socials" alt="linkedin" />
       </a>
-      <a href="https:github.com/lexisandoval" target="_blank" rel="noreferrer">
+      <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
         <img src={github} class="socials" alt="github" />
       </a>
 
       <div className="footer">
-        <a className="whitelink" href="https:github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Lexi Sandoval</a>
+        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Lexi Sandoval</a>
       </div>
       <div class="spacer" />
     </Container>

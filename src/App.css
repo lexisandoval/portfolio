@@ -13,7 +13,7 @@
 }
 
 .medium { 
-  font-size: 275% !important;
+  font-size: 250% !important;
 }
 
 .smallmed { 
@@ -32,8 +32,12 @@
   color: white;
 }
 
+.nounderline {
+  text-decoration: none !important;
+} 
+
 .lexi {
-  width: 55vh;
+  width: 45vh;
   height: auto;
   border-radius: 20px;
 }
@@ -80,7 +84,7 @@
   color: white;
   font-family: "Univers-Extended";
   font-size: 95% !important;
-  padding: 13px 30px 10px 30px !important;
+  padding: 10px 30px 10px 30px !important;
 }
 
 #workBtn:hover {
@@ -98,6 +102,8 @@
 .curveimg {
   border-radius: 20px !important;
   margin: 3% !important;
+  height: 40vh;
+  width: 27vh;
 }
 
 .spotify {
@@ -113,7 +119,7 @@
 }
 
 .aboutcont {
-  max-width: 900px !important;
+  max-width: 1000px !important;
 }
 
 .footer {
@@ -204,5 +210,11 @@
   .smallmed { 
     font-size: 150% !important;
     margin-bottom: 1% !important;
+  }
+
+  #workBtn, #aboutBtn, #emailBtn{
+    min-height: 70px !important;
+    display: inline-flex;
+    align-items: center;
   }
 }
