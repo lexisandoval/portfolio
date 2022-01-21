@@ -37,7 +37,7 @@ function About() {
         <br /><br />
         <div className="backcont">
           <h6 class="contmargin universcondensed smallmed white spacebelow">Cognizant</h6>
-          <h6 className="contmargin universcondensed small white">Currently working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit</h6>
+          <h6 className="contmargin universcondensed small white">Currently working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant</h6>
         </div>
       </Container>
       <br />

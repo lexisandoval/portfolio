@@ -217,4 +217,9 @@
     display: inline-flex;
     align-items: center;
   }
+
+  .curveimg {
+    width: 100%;
+    height: auto;
+  }
 }
