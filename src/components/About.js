@@ -89,7 +89,7 @@ function About() {
       </a>
 
       <div className="footer">
-        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Lexi Sandoval</a>
+        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
       </div>
       <div class="spacer" />
     </Container>
