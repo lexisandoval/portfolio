@@ -18,9 +18,9 @@ function About() {
       <br/>
       <h2 class="white ogg large spacebelow">About Me</h2>
       <Container id="aboutme" style={{ maxWidth: '1000px' }}>
-        <h4 class="contmargin white universcondensed small">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h4><br/>
-        <h4 class="contmargin white universcondensed small">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h4><br/>
-        <h4 class="contmargin white universcondensed small">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h4>
+        <h4 class="contmargin white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h4><br/>
+        <h4 class="contmargin white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h4><br/>
+        <h4 class="contmargin white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h4>
       </Container>
       <br />
 
