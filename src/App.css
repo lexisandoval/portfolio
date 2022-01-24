@@ -122,6 +122,10 @@
   max-width: 1000px !important;
 }
 
+.aboutme {
+  max-width: 1000px;
+}
+
 .footer {
   margin-top: .5rem;
   padding: 1rem;
@@ -225,5 +229,9 @@
   .curveimg {
     width: 35vh;
     height: 50vh;
+  }
+
+  #aboutme {
+    margin: 0 3% !important;
   }
 }
