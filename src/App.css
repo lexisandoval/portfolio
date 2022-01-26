@@ -138,6 +138,10 @@
   max-width: 1000px !important;
 }
 
+.max800 {
+  max-width: 800px !important;
+}
+
 .contmargin {
   margin: 0 6.5%;
 }
