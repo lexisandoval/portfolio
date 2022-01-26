@@ -11,13 +11,13 @@ import github from "../images/github.png"
 function Home() {
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
-      <div class="spacer" />
-      <div class="spacer" />
-      <h2 class="white ogg large spacebelow">Hey, I'm Alejandra</h2>
-      <h6 class="white universcondensed small spacebelow">A FULL STACK ENGINEER<span><br /></span> WITH A PASSION FOR DESIGN.</h6>
+      <div className="spacer" />
+      <div className="spacer" />
+      <h2 className="white ogg large spacebelow">Hey, I'm Alejandra</h2>
+      <h6 className="white universcondensed small spacebelow">A FULL STACK ENGINEER<span><br /></span> WITH A PASSION FOR DESIGN.</h6>
 
       <Container>
-        <img src={lexi} class="lexi" alt="Lexi" />
+        <img src={lexi} className="lexi" alt="Lexi" />
       </Container>
 
       <br /><br/>
@@ -33,9 +33,9 @@ function Home() {
       </Container>
       <br/>
 
-      <h5 class="white ogg medium spaceabove spacebelow">Get In Touch</h5>
-      <Container style={{ maxWidth: '850px' }}>
-        <h6 class="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+      <h5 className="white ogg medium spaceabove spacebelow">Get In Touch</h5>
+      <Container className="max1000">
+        <h6 className="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
       <br/>
       <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
@@ -43,16 +43,16 @@ function Home() {
       </a>
       <br />
       <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
-        <img src={linkedin} class="socials" alt="linkedin" />
+        <img src={linkedin} className="socials" alt="linkedin" />
       </a>
       <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
-        <img src={github} class="socials" alt="github" />
+        <img src={github} className="socials" alt="github" />
       </a>
 
       <div className="footer">
         <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
       </div>
-      <div class="spacer" />
+      <div className="spacer" />
     </Container>
   )
 }

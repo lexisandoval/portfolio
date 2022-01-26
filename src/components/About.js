@@ -16,38 +16,38 @@ function About() {
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
       <br/>
-      <h2 class="white ogg large spacebelow">About Me</h2>
-      <Container id="aboutme" style={{ maxWidth: '1000px' }}>
-        <h4 class="contmargin white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h4><br/>
-        <h4 class="contmargin white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h4><br/>
-        <h4 class="contmargin white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h4>
+      <h2 className="white ogg large spacebelow">About Me</h2>
+      <Container className="max1000">
+        <h6 className="horizontalspacer contmargin universcondensed small white alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h6><br/>
+        <h6 className="horizontalspacer contmargin white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h6><br/>
+        <h6 className="horizontalspacer contmargin white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h6>
       </Container>
       <br />
 
-      <Container className="spaceabove spacebelow" style={{ maxWidth: '1000px' }}>
+      <Container className="spaceabove spacebelow max1000">
         <h6 className="white ogg medium spacebelow">A Brief History</h6>
         <div className="backcont">
           <h6 className="universcondensed smallmed white spacebelow">University of Wisconsin-Madison</h6>
-          <h6 className="universcondensed small white">Graduated with a B.S. in Computer Sciences in December 2020</h6>
+          <h6 className="contmargin universcondensed small white">Graduated with a B.S. in Computer Sciences in December 2020</h6>
         </div>
         <br />
-        <img src={arrow} class="arrow" alt="arrow" />
+        <img src={arrow} className="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class=" universcondensed smallmed white spacebelow">Flatiron School Software Engineering Bootcamp</h6>
-          <h6 className=" universcondensed small white">Completed the Flatiron School Coding Bootcamp in June 2021</h6>
+          <h6 className="universcondensed smallmed white spacebelow">Flatiron School Software Engineering Bootcamp</h6>
+          <h6 className="contmargin universcondensed small white">Completed the Flatiron School Coding Bootcamp in June 2021</h6>
         </div>
         <br />
-        <img src={arrow} class="arrow" alt="arrow" />
+        <img src={arrow} className="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 class=" universcondensed smallmed white spacebelow">Cognizant</h6>
-          <h6 className=" universcondensed small white">Began working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant in August 2021</h6>
+          <h6 className=" universcondensed smallmed white spacebelow">Cognizant</h6>
+          <h6 className="contmargin universcondensed small white">Began working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant in August 2021</h6>
         </div>
       </Container>
       <br />
 
-      <Container className="aboutcont spaceabove">
+      <Container className="max1000 spaceabove">
         <Row>
           <Col className="spacebelow">
             <h6 className="white ogg medium spacebelow">Go-To Playlist</h6>
@@ -72,9 +72,9 @@ function About() {
       </Container>
       <br />
 
-      <Container className="spaceabove spacebelow" style={{ maxWidth: '1000px' }}>
+      <Container className="spaceabove spacebelow max1000">
         <h6 className="white ogg medium spacebelow">Get In Touch</h6>
-        <h6 class="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+        <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
       <br/>
       <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
@@ -82,16 +82,16 @@ function About() {
       </a>
       <br />
       <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
-        <img src={linkedin} class="socials" alt="linkedin" />
+        <img src={linkedin} className="socials" alt="linkedin" />
       </a>
       <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
-        <img src={github} class="socials" alt="github" />
+        <img src={github} className="socials" alt="github" />
       </a>
 
       <div className="footer">
         <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
       </div>
-      <div class="spacer" />
+      <div className="spacer" />
     </Container>
   )
 }

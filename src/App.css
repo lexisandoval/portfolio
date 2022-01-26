@@ -95,6 +95,10 @@
   opacity: .6;
 }
 
+.max1000 {
+  max-width: 1000px !important;
+}
+
 .contmargin {
   margin: 0 6.5%;
 }
@@ -112,7 +116,6 @@
 }
 
 .backcont {
-  /* background-color: #eccfec83 !important; */
   border: 2px solid white;
   border-radius: 20px !important;
   padding: 2% !important;
@@ -120,10 +123,6 @@
 
 .aboutcont {
   max-width: 1000px !important;
-}
-
-.aboutme {
-  max-width: 1000px;
 }
 
 .footer {
@@ -195,6 +194,10 @@
   padding: 2% !important;
 }
 
+.horizontalspacer {
+  padding: 0 2% !important;
+}
+
 .alignleft {
   text-align: left !important;
 }
@@ -231,7 +234,11 @@
     height: 50vh;
   }
 
-  #aboutme {
-    margin: 0 3% !important;
+  .contmargin {
+    margin: 0 !important;
+  }
+
+  .backcont {
+    padding: 1% !important;
   }
 }
