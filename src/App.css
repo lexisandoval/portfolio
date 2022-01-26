@@ -249,8 +249,8 @@
     text-align: center;
   } 
 
-  .projects {
-    width: 85%;
+  .projects, .img__wrap, .img__description_layer {
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
