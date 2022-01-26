@@ -30,8 +30,11 @@ function Projects() {
             <h5 className="ogg medium spacebelow curve">Visit Website<span><img src={arrowright} className="arrowright" alt="right arrow" /></span></h5><br />
           </div>
         </a>
-      </div>
+      </div><br/>
 
+      <div className="footer">
+        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
+      </div>
       <div className="spacer" />
 
     </Container>
