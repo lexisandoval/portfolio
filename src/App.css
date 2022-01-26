@@ -291,4 +291,8 @@
   .contmargin {
     margin: 0 !important;
   }
+
+  .mobilespacer {
+    padding: 5% !important;
+  }
 }

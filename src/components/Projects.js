@@ -26,7 +26,7 @@ function Projects() {
         <Button id="emailBtn" className="spaceabove spacebelow">VISIT WEBSITE</Button>
       </a>
       </Container>
-      <div className="spacer" />
+      <div className="spacer mobilespacer" />
 
       <Container className="max800">
         <h6 className="white ogg medium smallspacebelow">RateMyCourses</h6>
