@@ -72,7 +72,7 @@ function About() {
       </Container>
       <br />
 
-      <Container className="spaceabove spacebelow max1000">
+      <Container className="spaceabove spacebelow max800">
         <h6 className="white ogg medium spacebelow">Get In Touch</h6>
         <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>

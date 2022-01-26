@@ -34,7 +34,7 @@ function Home() {
       <br/>
 
       <h5 className="white ogg medium spaceabove spacebelow">Get In Touch</h5>
-      <Container className="max1000">
+      <Container className="max800">
         <h6 className="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
       <br/>
