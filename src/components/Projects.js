@@ -1,5 +1,4 @@
-import '../App.css'
-
+import React, { useEffect } from 'react';
 import { Container, Button } from 'react-bootstrap'
 
 import NavBar from "./NavBar"
@@ -9,6 +8,10 @@ import wcr from "../images/wcr.png"
 import rmc from "../images/rmc.png"
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />

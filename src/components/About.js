@@ -1,4 +1,4 @@
-import '../App.css'
+import React, { useEffect } from 'react';
 
 import { Container, Col, Row } from 'react-bootstrap'
 import Spotify from "react-spotify-embed"
@@ -11,6 +11,10 @@ import show from "../images/show.jpg"
 import arrow from "../images/arrow.png"
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
