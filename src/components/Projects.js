@@ -17,7 +17,6 @@ function Projects() {
       <Container className="max1000">
         <h6 className="white universcondensed small spacebelow">BELOW PROJECTS DEVELOPED DURING<span><br /></span> THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
       </Container>
-      <div className="mobilespacer" />
 
       <Container className="max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
