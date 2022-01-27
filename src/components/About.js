@@ -45,7 +45,7 @@ function About() {
         <br /><br />
         <div className="backcont">
           <h6 className=" universcondensed smallmed white spacebelow">Cognizant</h6>
-          <h6 className="contmargin universcondensed small white">Began working as an Associate Full Stack Engineer with the Enterprise Engineering Business Unit at Cognizant in August 2021</h6>
+          <h6 className="contmargin universcondensed small white">Began working as an Associate Full Stack Engineer at Cognizant in August 2021</h6>
         </div>
       </Container>
       <br />
