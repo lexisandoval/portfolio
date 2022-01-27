@@ -142,6 +142,10 @@
   max-width: 800px !important;
 }
 
+.max500 {
+  max-width: 500px !important;
+}
+
 .contmargin {
   margin: 0 6.5%;
 }

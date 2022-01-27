@@ -17,8 +17,8 @@ function Projects() {
       <NavBar />
       <div className="smspacer" />
       <h2 class="white ogg large spacebelow">Projects</h2>
-      <Container className="max1000">
-        <h6 className="white universcondensed small spacebelow">BELOW PROJECTS DEVELOPED DURING<span><br /></span> THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
+      <Container className="max500">
+        <h6 className="white universcondensed small spacebelow">THE BELOW PROJECTS WERE DEVELOPED DURING THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
       </Container>
 
       <Container className="max800">
