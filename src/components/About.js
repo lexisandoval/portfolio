@@ -14,7 +14,7 @@ function About() {
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
-      <br />
+      <div className="smspacer" />
       <h2 className="white ogg large spacebelow">About Me</h2>
       <Container className="max1000">
         <h6 className="white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h6><br />

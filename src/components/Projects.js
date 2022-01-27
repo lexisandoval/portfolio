@@ -12,11 +12,12 @@ function Projects() {
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
-      <br />
+      <div className="smspacer" />
       <h2 class="white ogg large spacebelow">Projects</h2>
       <Container className="max1000">
-        <h6 className="white universcondensed small spacebelow">BELOW PROJECTS WERE DEVELOPED DURING<span><br /></span> THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
+        <h6 className="white universcondensed small spacebelow">BELOW PROJECTS DEVELOPED DURING<span><br /></span> THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
       </Container>
+      <div className="mobilespacer" />
 
       <Container className="max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
