@@ -1,25 +1,24 @@
 import '../App.css'
 
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
+import Spotify from "react-spotify-embed"
+
 import NavBar from "./NavBar"
+import Footer from "./Footer"
 import bg from "../images/bg.jpg"
 import book from "../images/book.jpg"
 import show from "../images/show.jpg"
 import arrow from "../images/arrow.png"
-import linkedin from "../images/linkedin.png"
-import github from "../images/github.png"
-
-import Spotify from "react-spotify-embed"
 
 function About() {
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
-      <br/>
+      <br />
       <h2 className="white ogg large spacebelow">About Me</h2>
       <Container className="max1000">
-        <h6 className="white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h6><br/>
-        <h6 className="white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h6><br/>
+        <h6 className="white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began in middle school when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h6><br />
+        <h6 className="white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h6><br />
         <h6 className="white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h6>
       </Container>
       <br />
@@ -71,27 +70,7 @@ function About() {
         </Row>
       </Container>
       <br />
-
-      <Container className="spaceabove spacebelow max800">
-        <h6 className="white ogg medium spacebelow">Get In Touch</h6>
-        <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
-      </Container>
-      <br/>
-      <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
-        <Button id="emailBtn" className="spaceabove">SEND ME AN EMAIL</Button>
-      </a>
-      <br />
-      <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
-        <img src={linkedin} className="socials" alt="linkedin" />
-      </a>
-      <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
-        <img src={github} className="socials" alt="github" />
-      </a>
-
-      <div className="footer">
-        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
-      </div>
-      <div className="spacer" />
+      <Footer />
     </Container>
   )
 }

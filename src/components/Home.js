@@ -3,10 +3,9 @@ import '../App.css'
 import { Button, Row, Col, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
+import Footer from "./Footer"
 import bg from "../images/bg.jpg"
 import lexi from "../images/lexi.png"
-import linkedin from "../images/linkedin.png"
-import github from "../images/github.png"
 
 function Home() {
   return (
@@ -33,26 +32,7 @@ function Home() {
       </Container>
       <br/>
 
-      <h5 className="white ogg medium spaceabove spacebelow">Get In Touch</h5>
-      <Container className="max800">
-        <h6 className="contmargin universcondensed small white spacebelow">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
-      </Container>
-      <br/>
-      <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
-        <Button id="emailBtn" className="spaceabove">SEND ME AN EMAIL</Button>
-      </a>
-      <br />
-      <a href="https://www.linkedin.com/in/alejandramsandoval/" target="_blank" rel="noreferrer">
-        <img src={linkedin} className="socials" alt="linkedin" />
-      </a>
-      <a href="https://github.com/lexisandoval" target="_blank" rel="noreferrer">
-        <img src={github} className="socials" alt="github" />
-      </a>
-
-      <div className="footer">
-        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
-      </div>
-      <div className="spacer" />
+      <Footer/>
     </Container>
   )
 }
