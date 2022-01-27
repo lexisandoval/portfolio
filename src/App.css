@@ -307,4 +307,8 @@
   .mobilespacer {
     padding: 5% !important;
   }
+
+  .max500 {
+    width: 80% !important;
+  }
 }
