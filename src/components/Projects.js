@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Button } from 'react-bootstrap'
+import { useMediaQuery } from 'react-responsive'
 
 import NavBar from "./NavBar"
 import Footer from "./Footer"
@@ -12,13 +13,19 @@ function Projects() {
     window.scrollTo(0, 0)
   }, [])
 
+  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
+
   return (
     <Container style={{ backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className="App">
       <NavBar />
       <div className="smspacer" />
       <h2 class="white ogg large spacebelow">Projects</h2>
       <Container className="max500">
-        <h6 className="white universcondensed small spacebelow">THE BELOW PROJECTS WERE DEVELOPED DURING THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
+        {isMobile ?
+          <h6 className="white universcondensed small spacebelow">THE BELOW PROJECTS WERE DEVELOPED DURING THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
+          :
+          <h6 className="white universcondensed small spacebelow">DEVELOPED DURING THE FLATIRON SCHOOL BOOTCAMP.</h6>
+        }
       </Container>
 
       <Container className="max800">
