@@ -12,7 +12,7 @@ function Footer() {
         <h6 className="white ogg medium spacebelow">Get In Touch</h6>
         <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
-      <div className="mobilespacer"/>
+      <div className="smmobilespacer"/>
       <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
         <Button id="emailBtn">SEND ME AN EMAIL</Button>
       </a>

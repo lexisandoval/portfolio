@@ -308,6 +308,10 @@
     padding: 5% !important;
   }
 
+  .smmobilespacer {
+    padding: 2% !important;
+  }
+
   .max500 {
     width: 80% !important;
   }
