@@ -49,7 +49,7 @@ function Projects() {
         <div className="img__wrap mx-auto">
           <img src={rmc} className="projects" alt='RateMyCourses' />
           <div className="img__description_layer">
-            <h6 className="horizontalspacer universcondensed small white">Built the frontend and backend with Ruby on Rails</h6>
+            <h6 className="horizontalspacer universcondensed small white">Built the frontend and the backend with Ruby on Rails</h6>
           </div>
         </div><br />
         <a href="https://ratemy-courses.herokuapp.com/" target="_blank" rel="noreferrer" className="nounderline">
