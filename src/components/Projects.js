@@ -38,7 +38,7 @@ function Projects() {
           </div>
         </div><br />
         <a href="https://windycityrooftops.netlify.app/" target="_blank" rel="noreferrer" className="nounderline">
-          <Button id="emailBtn" className="spaceabove spacebelow">VISIT WEBSITE</Button>
+          <Button id="websiteBtn" className="spaceabove spacebelow">VISIT WEBSITE</Button>
         </a>
       </Container>
       <div className="spacer mobilespacer" />
@@ -53,7 +53,7 @@ function Projects() {
           </div>
         </div><br />
         <a href="https://ratemy-courses.herokuapp.com/" target="_blank" rel="noreferrer" className="nounderline">
-          <Button id="emailBtn" className="spaceabove spacebelow">VISIT WEBSITE</Button>
+          <Button id="websiteBtn" className="spaceabove spacebelow">VISIT WEBSITE</Button>
         </a>
       </Container>
       <br />

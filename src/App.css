@@ -114,7 +114,7 @@
   box-shadow: 0 15px 30px   rgba(0, 0, 0, 0.7);
 }
 
-#workBtn {
+#workBtn, #websiteBtn {
   background-color: black !important;
   border-color: transparent !important;
   border-style: solid !important;
@@ -126,8 +126,9 @@
   padding: 10px 30px 10px 30px !important;
 }
 
-#workBtn:hover {
-  box-shadow: 0 15px 30px   rgba(0, 0, 0, 0.7);
+#workBtn:hover,
+#websiteBtn:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
 }
 
 .socials:hover {
@@ -276,7 +277,7 @@
     text-align: center;
   } 
 
-  #workBtn, #aboutBtn, #emailBtn {
+  #workBtn, #aboutBtn, #emailBtn, #websiteBtn {
     font-size: 98% !important;
   }
   
@@ -289,7 +290,7 @@
     margin-bottom: 1% !important;
   }
 
-  #workBtn, #aboutBtn, #emailBtn{
+  #workBtn, #aboutBtn, #emailBtn, #websiteBtn {
     min-height: 70px !important;
     display: inline-flex;
     align-items: center;
