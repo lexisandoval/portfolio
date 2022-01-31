@@ -27,8 +27,9 @@ function Projects() {
           <h6 className="white universcondensed small spacebelow">THE BELOW PROJECTS WERE DEVELOPED DURING THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
         }
       </Container>
+      <div className="mobilespacer" />
 
-      <Container className="max800">
+      <Container className="spaceabove max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
         <h6 className="white universcondensed small">We've compiled a list of Chicago's best rooftop bars and restaurants so you can start planning your next visit. Cheers to the Windy City!</h6><br />
         <div className="img__wrap mx-auto">
