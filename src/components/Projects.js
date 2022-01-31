@@ -58,6 +58,8 @@ function Projects() {
         </a>
       </Container>
       <br />
+
+      <div className="smmobilespacer" />
       <Footer />
     </Container>
   )
