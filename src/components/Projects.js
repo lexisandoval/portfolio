@@ -27,7 +27,6 @@ function Projects() {
           <h6 className="white universcondensed small spacebelow">THE BELOW PROJECTS WERE DEVELOPED DURING THE FLATIRON SCHOOL CODING BOOTCAMP.</h6>
         }
       </Container>
-      <div className="mobilespacer" />
 
       <Container className="spaceabove max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
