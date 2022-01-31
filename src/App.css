@@ -310,6 +310,10 @@
   }
 
   .smmobilespacer {
+    padding: 3% !important;
+  }
+
+  .topmobilespacer {
     padding-top: 5% !important;
   }
 
