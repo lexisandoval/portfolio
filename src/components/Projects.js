@@ -22,11 +22,7 @@ function Projects() {
       <div className="smspacer" />
       <h2 class="white ogg large spacebelow">Projects</h2>
       <Container className="max500">
-        {isMobile ?
-          <h6 className="white universcondensed small spacebelow">DEVELOPED DURING THE FLATIRON SCHOOL BOOTCAMP AND TRAINING WITH COGNIZANT.</h6>
-          :
-          <h6 className="white universcondensed small spacebelow">DEVELOPED DURING THE FLATIRON SCHOOL BOOTCAMP AND TRAINING WITH COGNIZANT.</h6>
-        }
+        <h6 className="white universcondensed small spacebelow">DEVELOPED DURING THE FLATIRON SCHOOL BOOTCAMP AND TRAINING WITH COGNIZANT.</h6>
       </Container>
       <div className="smmobilespacer" />
 
