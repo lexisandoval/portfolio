@@ -8,7 +8,7 @@ import github from "../images/github.png"
 function Footer() {
   return (
     <>
-      <Container className="spaceabove spacebelow max800">
+      <Container className="spaceabove largespacebelow max800">
         <h6 className="white ogg medium spacebelow">Get In Touch</h6>
         <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>

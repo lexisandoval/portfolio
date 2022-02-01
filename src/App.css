@@ -250,6 +250,10 @@
   padding-bottom: 1% !important;
 }
 
+.largespacebelow {
+  padding-bottom: 2.5% !important;
+}
+
 .spacer {
   padding: 2% !important;
 }
@@ -318,7 +322,7 @@
   }
 
   .topmobilespacer {
-    padding-top: 6% !important;
+    padding-top: 6.5% !important;
   }
 
   .max500 {
