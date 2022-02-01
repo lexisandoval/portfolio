@@ -242,6 +242,10 @@
   padding-bottom: 2% !important;
 }
 
+.medspacebelow {
+  padding-bottom: 1.5% !important;
+}
+
 .smallspacebelow {
   padding-bottom: 1% !important;
 }
@@ -314,7 +318,7 @@
   }
 
   .topmobilespacer {
-    padding-top: 5% !important;
+    padding-top: 5.5% !important;
   }
 
   .max500 {
