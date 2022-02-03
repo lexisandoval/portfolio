@@ -49,6 +49,12 @@
   
 }
 
+.projectdesc {
+  width: 70vh !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .img__wrap {
   position: relative;
   width: 70vh;
@@ -278,7 +284,7 @@
     text-align: center;
   } 
 
-  .projects, .img__wrap, .img__description_layer {
+  .projects, .projectdesc, .img__wrap, .img__description_layer {
     width: 100%;
     margin-left: auto;
     margin-right: auto;

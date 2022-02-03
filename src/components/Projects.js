@@ -25,7 +25,7 @@ function Projects() {
 
       <Container className="spaceabove max800">
         <h6 className="white ogg medium smallspacebelow">Lexi's Locker</h6>
-        <h6 className="white universcondensed small medspacebelow">Discover unique secondhand items that are sure to make you stand out from the crowd. Shop sustainably, shop the Locker!</h6>
+        <h6 className="white universcondensed small medspacebelow projectdesc">Discover unique secondhand items that are sure to make you stand out from the crowd. Shop sustainably, shop the Locker!</h6>
         <div className="img__wrap mx-auto">
           <img src={lexislocker} className="projects" alt='Lexis Locker' />
           <div className="img__description_layer">
@@ -40,7 +40,7 @@ function Projects() {
 
       <Container className="spaceabove max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
-        <h6 className="white universcondensed small medspacebelow">We've compiled a list of Chicago's best rooftop bars and restaurants so you can start planning your next visit. Cheers to the Windy City!</h6>
+        <h6 className="white universcondensed small medspacebelow projectdesc">We've compiled a list of Chicago's best rooftop bars and restaurants so you can start planning your next visit. Cheers to the Windy City!</h6>
         <div className="img__wrap mx-auto">
           <img src={wcr} className="projects" alt='Windy City Rooftops' />
           <div className="img__description_layer">
@@ -55,7 +55,7 @@ function Projects() {
 
       <Container className="max800">
         <h6 className="white ogg medium smallspacebelow">RateMyCourses</h6>
-        <h6 className="white universcondensed small medspacebelow">Rate, review, and rave about courses at UW-Madison. We're your trusted source for honest opinions from hundreds of students just like you!</h6>
+        <h6 className="white universcondensed small medspacebelow projectdesc">Rate, review, and rave about courses at UW-Madison. We're your trusted source for honest opinions from hundreds of students just like you!</h6>
         <div className="img__wrap mx-auto">
           <img src={rmc} className="projects" alt='RateMyCourses' />
           <div className="img__description_layer">
