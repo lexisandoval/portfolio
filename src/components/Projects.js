@@ -38,7 +38,7 @@ function Projects() {
       </Container>
       <div className="spacer mobilespacer" />
 
-      <Container className="spaceabove max800">
+      <Container className="max800">
         <h6 className="white ogg medium smallspacebelow">Windy City Rooftops</h6>
         <h6 className="white universcondensed small medspacebelow projectdesc">We've compiled a list of Chicago's best rooftop bars and restaurants so you can start planning your next visit. Cheers to the Windy City!</h6>
         <div className="img__wrap mx-auto">
