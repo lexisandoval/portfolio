@@ -340,4 +340,8 @@
   .max500 {
     width: 80% !important;
   }
+
+  .footer {
+    width: 100% !important
+  }
 }
