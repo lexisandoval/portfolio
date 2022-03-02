@@ -291,16 +291,9 @@
   } 
 
   .curveimg {
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center !important;
-  } 
-
-  /* .curveimg {
     width: 37vh;
     height: 52vh;
-  } */
+  }
 
   .projects, .projectdesc, .img__wrap, .img__description_layer {
     width: 100% !important;
