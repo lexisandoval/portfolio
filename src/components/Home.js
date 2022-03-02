@@ -20,7 +20,7 @@ function Home() {
       </Container>
 
       <br /><br/>
-      <Container style={{ maxWidth: '625px' }}>
+      <Container className="max515">
         <Row>
           <Col>
             <Button as={Link} to={'/aboutme'} id="aboutBtn" className="spaceabove">LEARN ABOUT ME</Button>
@@ -30,7 +30,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      <br/>
+      <br/> 
 
       <Footer/>
     </Container>

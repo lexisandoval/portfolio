@@ -10,7 +10,7 @@ function Footer() {
     <>
       <Container className="spaceabove largespacebelow max800">
         <h6 className="white ogg medium spacebelow">Get In Touch</h6>
-        <h6 className="contmargin universcondensed small white">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
+        <h6 className="mx-auto universcondensed small white footer">If you're interested in working with me or just want to say hello, please feel free to email me or connect via my social links below!</h6>
       </Container>
       <div className="topmobilespacer"/>
       <a href="mailto:lexi.sandoval9@gmail.com" className="nounderline">
@@ -24,8 +24,8 @@ function Footer() {
         <img src={github} className="socials" alt="github" />
       </a>
 
-      <div className="footer">
-        <a className="whitelink" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
+      <div className="mx-auto">
+        <a style={{paddingRight: '1%'}} className="whitelink universcondensed" href="https://github.com/lexisandoval/portfolio" target="_blank" rel="noreferrer">Designed & Built by Alejandra Sandoval</a>
       </div>
       <div className="spacer" />
     </>
