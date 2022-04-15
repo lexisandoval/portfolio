@@ -22,7 +22,7 @@ function About() {
       <h2 className="white ogg large spacebelow">About Me</h2>
       <Container className="max1000">
         <h6 className="white universcondensed small alignleft">Hello! My name is Alejandra Sandoval and I'm a full stack engineer. My interest in coding began at a young age when I developed a passion for customizing my social profiles by editing the HTML within pre-made themes.</h6><br />
-        <h6 className="white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fortune 500 company.</h6><br />
+        <h6 className="white universcondensed small alignleft">Since then, I have graduated with a bachelor's degree in computer sciences, completed a coding bootcamp, and earned a position as a software engineer with a Fintech Unicorn Company.</h6><br />
         <h6 className="white universcondensed small alignleft">Outside of work you'll find me running, watching Chicago sports, and spending quality time with my family and friends.</h6>
       </Container>
       <br />
@@ -47,10 +47,16 @@ function About() {
           <h6 className=" universcondensed smallmed white spacebelow">Cognizant</h6>
           <h6 className="contmargin universcondensed small white">Began working as an Associate Full Stack Engineer at Cognizant in August 2021</h6>
         </div>
+        <img src={arrow} className="arrow" alt="arrow" />
+        <br /><br />
+        <div className="backcont">
+          <h6 className=" universcondensed smallmed white spacebelow">CardX</h6>
+          <h6 className="contmargin universcondensed small white">Began working as a Mid-Level Software Engineer at CardX in April 2022</h6>
+        </div>
       </Container>
       <br />
 
-      <Container className="max1000 spaceabove">
+      <Container className="max1200 spaceabove">
         <Row>
           <Col className="spacebelow">
             <h6 className="white ogg medium spacebelow">Go-To Playlist</h6>
