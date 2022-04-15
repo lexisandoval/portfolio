@@ -50,7 +50,7 @@ function About() {
         <img src={arrow} className="arrow" alt="arrow" />
         <br /><br />
         <div className="backcont">
-          <h6 className=" universcondensed smallmed white spacebelow">CardX</h6>
+          <h6 className=" universcondensed smallmed white spacebelow">CardX / Stax</h6>
           <h6 className="contmargin universcondensed small white">Began working as a Mid-Level Software Engineer at CardX in April 2022</h6>
         </div>
       </Container>
